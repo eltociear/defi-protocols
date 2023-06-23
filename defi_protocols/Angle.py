@@ -181,7 +181,7 @@ class VaultManager(DefiContract):
         data = {
             "tokens_key": "state",
             "tokens": {
-                "debt": {"add": self.stable_token, "balance": debt},
+                "debt": {"addr": self.stable_token, "balance": debt},
                 "available_to_borrow": {"addr": self.stable_token, "balance": available_to_borrow},
                 "collateral_deposit": {"addr": self.collateral_token, "balance": collateral_amount},
             },

@@ -52,7 +52,7 @@ def test_underlying():
                             "balance": Decimal("475"),
                         },
                         "debt": {
-                            "add": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+                            "addr": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
                             "balance": Decimal("235029.284458768826450263"),
                         },
                     },
